@@ -15,15 +15,22 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 		<style type="text/css">
-		<!--
-		#hello {
-			margin-bottom: 0.4em;
+		<!--		
+		#myicon {
+			margin-top: 0.5em;
+			position: relative;
+			-webkit-border-radius: 50%; /* Safari, Chrome */  
+			-moz-border-radius: 50%; /* Firefox */ 
+			border-radius: 50%; /* CSS3 */ 
+			border: 2px solid #ccc;
+			width: 120px;
+			height: 120px;
 		}
 		
 		#myname {
 			margin-top: 0.5em;
-			font-family: 'Reenie Beanie', cursive;
-			font-size: 180%;
+			margin-bottom: 0.5em;
+			font-size: 120%;
 		}
 				
 		.info_box {
@@ -34,9 +41,8 @@
 			text-align: center;
 			width: 300px;
 			height: 300px;
-			/* background-color: #f1f1f1; */
-			background-image: url(https://avatars2.githubusercontent.com/u/16917697?v=3&s=460)
-			
+			color: white;
+			background-color: #e74c3c; 
 		}
 		
 		.ios_app_box {
@@ -120,6 +126,7 @@
 		
 		a:hover {
 			text-decoration: none;
+			color:#1abc9c;
 		}
 		
 		body {
@@ -140,6 +147,10 @@
 			border-top-style: dotted;
 			border-width: 1px;
 			border-color: gray;
+		}
+		
+		a {
+			color: white;
 		}
 		
 		.links a {
@@ -176,12 +187,23 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="info_box">
-						<h1 id="hello">HELLO !</h1>
+						<img id="myicon" src="https://avatars2.githubusercontent.com/u/16917697?v=3&s=460">
+						<div id="myname">@shtnkgm / shota nakagami</div>
 						<p>I am an iPhone app developer based in Nagoya, Japan. I have been creating iOS apps since 2011. I specialize in photo editing apps such as toy-camera and retouch tool.</p>
-						<div id="myname">Shota Nakagami</div>
-						<div><a href="https://github.com/shtnkgm">shtnkgm@github</a></div>
-						<div><a href="http://qiita.com/shtnkgm">shtnkgm@Qiita</a></div>
-						<div><a href="http://goo.gl/forms/BZpabeIKFB">Contact</a></div>
+						<span><a href="https://github.com/shtnkgm">github</a></span>/
+						<span><a href="http://qiita.com/shtnkgm">qiita</a></span>/
+						<span><a href="https://twitter.com/shtnkgm">twitter</a></span>/
+						<span><a href="http://goo.gl/forms/BZpabeIKFB">contact</a></span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="ios_app_box">
+						<a href="https://geo.itunes.apple.com/us/app/mozz-blur-pixellation-photo/id1124041623?mt=8">
+							<img class="ios_app_image" src="http://a2.mzstatic.com/jp/r30/Purple30/v4/26/1c/8b/261c8b24-9a25-0fa8-212d-5bf9b1050eba/screen322x572.jpeg">
+							<img class="ios_app_icon" src="http://a2.mzstatic.com/jp/r30/Purple20/v4/dc/89/20/dc892096-5cba-2c55-c408-4f5b65a6f264/icon175x175.png">
+							<div class="ios_app_title">Duotone+</div>
+							<div class="ios_app_release">2016</div>
+						</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4">
