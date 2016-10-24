@@ -13,6 +13,36 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-size: 120%;
+    font-weight: bold;
+}
+
+.socialLinks img {
+    border-radius: 4px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.socialLinks i {
+    width: 26px;
+    height: 26px;
+    font-size: 26px;
+    margin-right: 2px;
+}
+
+.socialLinks .github {
+	color: #000;
+}
+
+.socialLinks .twitter {
+	color: #3aaaec;
+}
+
+.socialLinks .contact {
+	color: #4861a3;
 }
 
 .info_box {
@@ -22,8 +52,8 @@
     text-align: center;
     width: 300px;
     height: 300px;
-    color: white;
-    background-color: #e74c3c;
+    color: #1f1f1f;
+    background-color: #f2f2f2;
 }
 
 .ios_app_box {
@@ -129,7 +159,7 @@ body {
 }
 
 a {
-    color: white;
+    /*color: white;*/
 }
 
 .links a {
