@@ -153,6 +153,13 @@
     position: relative;
 }
 
+.ios_app_description {
+    color: white;
+    font-size: 80%;
+    position: relative;
+}
+
+
 a:hover {
     text-decoration: none;
     color: #1abc9c;
