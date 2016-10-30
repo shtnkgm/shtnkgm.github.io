@@ -5,8 +5,8 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     border: 1px solid #ccc;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
 }
 
 #myname {
@@ -42,7 +42,7 @@
 }
 
 .socialLinks .contact {
-	color: #4861a3;
+	color: #484848;
 }
 
 .socialLinks i:hover {
@@ -70,9 +70,8 @@
     text-align: center;
     width: 300px;
     height: 300px;
-    color: #555;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
 }
 
 .ios_app_box {
@@ -166,7 +165,10 @@ a:hover {
 }
 
 body {
+    background-color: #FAFAFA;
     font-family: 'Lato', sans-serif;
+    font-kerning: auto;
+    color: #161616;
 }
 
 .header {
