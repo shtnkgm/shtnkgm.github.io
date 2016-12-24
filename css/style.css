@@ -95,7 +95,8 @@
 }
 
 .link {
-    height: 26px;
+    height: 36px;
+    line-height: 36px;
     margin: 0px 20px;
 }
 
