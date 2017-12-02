@@ -208,6 +208,7 @@ h1 {
 }
 
 body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
     word-wrap: break-word;
     -webkit-font-kerning: auto;
     font-kerning: auto;
