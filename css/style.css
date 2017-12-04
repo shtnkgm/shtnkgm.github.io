@@ -19,7 +19,7 @@
     height: 210px;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    background-color: white;
+    background-color: #282A36; /* xcode dusk color theme background */
     position: relative;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
@@ -88,7 +88,7 @@
     bottom:0px;
     
     font-size: 80%;
-    color: rgba(0,0,0,0.65); /*Primary Text*/
+    color: white;/*Primary Text*/
 }
 
 .card_title_description {
@@ -101,7 +101,7 @@
     bottom:0px;
     
     font-size: 70%;
-	color: rgba(0,0,0,0.54); /*Secondary Text*/
+	color: lightgray; /*Secondary Text*/
     text-align: right;
 }
 
@@ -130,16 +130,15 @@
 }
 
 .link i {
+    font-size: 100%;
     text-align: center;
     width: 23px;
-    color: coral;
-    /*color: rgba(0,0,0,0.54);*/ /*Secondary Text*/
+    color: lightseagreen;
 }
 
 .link a{
     font-size: 80%;
-    color: coral;
-    /*color: #337ab7;*/ /*Link Text*/
+    color: lightseagreen;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -208,12 +207,6 @@ body {
 a {
     text-decoration: none;
 }
-
-/*
-a:hover {
-	text-decoration: none;
-}
-*/
 
 .contents {
 	background-color: #FAFAFA; /* LightGrey */
