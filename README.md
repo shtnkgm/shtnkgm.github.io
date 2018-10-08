@@ -1,4 +1,4 @@
 # shtnkgm.github.io
-My Portfolio Webpege
+My Portfolio Webpage
 
 https://shtnkgm.github.io/
