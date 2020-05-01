@@ -1,0 +1,29 @@
+{
+  "name": "shtnkgm.github.io",
+  "version": "1.0.0",
+  "description": "My Portfolio Webpage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shtnkgm/shtnkgm.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shtnkgm/shtnkgm.github.io/issues"
+  },
+  "homepage": "https://github.com/shtnkgm/shtnkgm.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "ie >= 9",
+    "Android >= 4",
+    "ios_saf >= 8"
+  ]
+}

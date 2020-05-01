@@ -1,14 +1,14 @@
 .card_list {
-	padding: 20px 20px;
-	margin: auto;
+    padding: 20px 20px;
+    margin: auto;
 
-	display: -webkit-box;
+    display: -webkit-box;
 
-	display: -ms-flexbox;
+    display: -ms-flexbox;
 
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 /* card ===============================================*/
@@ -19,15 +19,16 @@
     height: 210px;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    background-color: #282A36; /* xcode dusk color theme background */
+    background-color: #282A36;
+    /* xcode dusk color theme background */
     position: relative;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
 /*
 .card:hover {
-    transition: 0.1s;     
+    transition: 0.1s;
     box-shadow: 0 2px 10px rgba(0,0,0,.2);
 }
 */
@@ -49,26 +50,26 @@
 .card_icon {
     width: 40px;
     height: 40px;
-    
+
     position: absolute;
     left: 10px;
     bottom: 10px;
     border-radius: 20%;
-    
-    box-shadow: 0 2px 5px rgba(0,0,0,0.20);
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
 }
 
 .card_label {
-	width: 300px;
+    width: 300px;
     height: 30px;
-    
+
     position: absolute;
-    bottom:0px;
-    
+    bottom: 0px;
+
     display: -webkit-box;
-    
+
     display: -ms-flexbox;
-    
+
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -82,26 +83,28 @@
     width: 150px;
     height: 30px;
     line-height: 30px;
-    
+
     position: absolute;
     left: 60px;
-    bottom:0px;
-    
+    bottom: 0px;
+
     font-size: 80%;
-    color: white;/*Primary Text*/
+    color: white;
+    /*Primary Text*/
 }
 
 .card_title_description {
     width: 50px;
     height: 30px;
     line-height: 30px;
-    
+
     position: absolute;
     right: 10px;
-    bottom:0px;
-    
+    bottom: 0px;
+
     font-size: 70%;
-	color: lightgray; /*Secondary Text*/
+    color: lightgray;
+    /*Secondary Text*/
     text-align: right;
 }
 
@@ -109,11 +112,11 @@
 
 .link_list {
     padding: 30px 20px;
-    
+
     display: -webkit-box;
-    
+
     display: -ms-flexbox;
-    
+
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -136,7 +139,7 @@
     color: lightseagreen;
 }
 
-.link a{
+.link a {
     font-size: 80%;
     color: lightseagreen;
     -webkit-transition: 0.3s;
@@ -145,28 +148,29 @@
 
 /*
 .link a:hover{
-    color: rgba(0,0,0,0.54); 
+    color: rgba(0,0,0,0.54);
 }
 */
 
 /* header ===============================================*/
 
 .header {
-    background-color: #282A36; /* xcode dusk color theme background */
+    background-color: #282A36;
+    /* xcode dusk color theme background */
     height: 300px;
     text-align: center;
     position: relative;
 }
 
 #my_name {
-	padding: 130px 0px 5px 0px;
-	font-size: 140%;
+    padding: 130px 0px 5px 0px;
+    font-size: 140%;
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
 
 #my_title {
-	font-size: 80%;
+    font-size: 80%;
     color: lightgray;
     font-family: 'Source Code Pro', monospace;
 }
@@ -175,7 +179,8 @@
 
 .footer {
     text-align: center;
-    color: rgba(0,0,0,0.54);*/ /*Secondary Text*/
+    color: rgba(0, 0, 0, 0.54);
+    /*Secondary Text*/
     line-height: 50px;
     height: 50px;
     font-size: 70%;
@@ -184,16 +189,18 @@
 /* other ===============================================*/
 
 .divider {
-    border-bottom: 1px solid rgba(0,0,0,0.12); /* Dividers */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    /* Dividers */
     height: 1px;
     margin: 0px 40px;
 }
 
 h1 {
-    border-bottom: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     margin: 0px 40px;
     padding: 4px;
-    color: rgba(0,0,0,0.65); /*Primary Text*/
+    color: rgba(0, 0, 0, 0.65);
+    /*Primary Text*/
 }
 
 body {
@@ -201,7 +208,8 @@ body {
     word-wrap: break-word;
     -webkit-font-kerning: auto;
     font-kerning: auto;
-    color: rgba(0,0,0,0.65); /*Primary Text*/
+    color: rgba(0, 0, 0, 0.65);
+    /*Primary Text*/
 }
 
 a {
@@ -209,7 +217,8 @@ a {
 }
 
 .contents {
-	background-color: #FAFAFA; /* LightGrey */
+    background-color: #FAFAFA;
+    /* LightGrey */
 }
 
 .flex_box {
@@ -221,32 +230,27 @@ a {
     transition: opacity 0.4s;
 }
 
-@media screen and (min-width:380px) { 
+@media screen and (min-width:380px) {
     .flex_box {
-	   width: 380px;
+        width: 380px;
     }
 }
+
 @media screen and (min-width:720px) {
     .flex_box {
-	   width: 720px;
+        width: 720px;
     }
 }
+
 @media screen and (min-width:1060px) {
     .flex_box {
-	   width: 1060px;
-    
+        width: 1060px;
+
     }
 }
+
 @media screen and (min-width:1400px) {
     .flex_box {
         width: 1400px;
     }
 }
-
-
-
-
-
-
-
-
