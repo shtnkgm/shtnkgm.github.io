@@ -19,7 +19,7 @@
     height: 210px;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    background-color: #282A36;
+    background-color: white;
     /* xcode dusk color theme background */
     position: relative;
     border-radius: 4px;
@@ -89,7 +89,7 @@
     bottom: 0px;
 
     font-size: 80%;
-    color: white;
+    color: rgba(0, 0, 0, 0.54);
     /*Primary Text*/
 }
 
@@ -103,7 +103,7 @@
     bottom: 0px;
 
     font-size: 70%;
-    color: lightgray;
+    color: rgba(0, 0, 0, 0.54);
     /*Secondary Text*/
     text-align: right;
 }
@@ -155,7 +155,7 @@
 /* header ===============================================*/
 
 .header {
-    background-color: #282A36;
+    background-color: white;
     /* xcode dusk color theme background */
     height: 300px;
     text-align: center;
@@ -165,13 +165,13 @@
 #my_name {
     padding: 130px 0px 5px 0px;
     font-size: 140%;
-    color: white;
+    color: rgba(0, 0, 0, 0.54);
     font-family: 'Source Code Pro', monospace;
 }
 
 #my_title {
     font-size: 80%;
-    color: lightgray;
+    color: gray;
     font-family: 'Source Code Pro', monospace;
 }
 
