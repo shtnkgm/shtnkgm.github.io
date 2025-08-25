@@ -1,1 +1,0 @@
-# shtnkgm.github.io
